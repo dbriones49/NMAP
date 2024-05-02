@@ -31,7 +31,7 @@ Example: nmap -A <target>
 ##  Enable OS Dectection
  The -O flag enables OS detection, allowing analysts to identify the operating systems running on network hosts. This information can help analysts tailor security measures to specific OS vulnerabilities and threats.
 
- Example:nmap -O <target>
+ Example: nmap -O <target>
 
 ## Port Ranges( Only scan specified ports)
 This command scans specific ports on network hosts, helping analysts identify open ports that may be potential entry points for attackers. SOC analysts can then focus on securing these ports to mitigate risks.
