@@ -34,12 +34,12 @@ Example: nmap -A <target>
 
  Example:nmap -O <target>
 
-# Port
+## Port
 This command scans specific ports on network hosts, helping analysts identify open ports that may be potential entry points for attackers. SOC analysts can then focus on securing these ports to mitigate risks.
 
 Example: nmap -p <port> <target>
 
-# Target
+## Target
 The -sn flag performs a simple host discovery scan without port scanning, providing a quick overview of active hosts on a network. This command can help analysts identify unauthorized devices or potential security breaches within the network.
 
 Example: nmap -sn <target>
